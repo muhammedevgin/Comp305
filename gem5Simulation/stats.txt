@@ -1,0 +1,55 @@
+Block_size = 128
+
+system.cpu.dcache.demandHits::cpu.data        5326161                       # number of demand (read+write) hits (Count)
+system.cpu.dcache.demandHits::total           5326161                       # number of demand (read+write) hits (Count)
+system.cpu.dcache.overallHits::cpu.data       5326161                       # number of overall hits (Count)
+system.cpu.dcache.overallHits::total          5326161                       # number of overall hits (Count)
+system.cpu.dcache.demandMisses::cpu.data         1396                       # number of demand (read+write) misses (Count)
+system.cpu.dcache.demandMisses::total            1396                       # number of demand (read+write) misses (Count)
+system.cpu.dcache.overallMisses::cpu.data         1396                       # number of overall misses (Count)
+system.cpu.dcache.overallMisses::total           1396                       # number of overall misses (Count)
+
+
+Block_size = 64
+system.cpu.dcache.demandHits::cpu.data        5325117                       # number of demand (read+write) hits (Count)
+system.cpu.dcache.demandHits::total           5325117                       # number of demand (read+write) hits (Count)
+system.cpu.dcache.overallHits::cpu.data       5325117                       # number of overall hits (Count)
+system.cpu.dcache.overallHits::total          5325117                       # number of overall hits (Count)
+system.cpu.dcache.demandMisses::cpu.data         2444                       # number of demand (read+write) misses (Count)
+system.cpu.dcache.demandMisses::total            2444                       # number of demand (read+write) misses (Count)
+system.cpu.dcache.overallMisses::cpu.data         2444                       # number of overall misses (Count)
+system.cpu.dcache.overallMisses::total           2444                       # number of overall misses (Count)
+
+Block_size = 32
+system.cpu.dcache.demandHits::cpu.data        5323193                       # number of demand (read+write) hits (Count)
+system.cpu.dcache.demandHits::total           5323193                       # number of demand (read+write) hits (Count)
+system.cpu.dcache.overallHits::cpu.data       5323193                       # number of overall hits (Count)
+system.cpu.dcache.overallHits::total          5323193                       # number of overall hits (Count)
+system.cpu.dcache.demandMisses::cpu.data         4381                       # number of demand (read+write) misses (Count)
+system.cpu.dcache.demandMisses::total            4381                       # number of demand (read+write) misses (Count)
+system.cpu.dcache.overallMisses::cpu.data         4381                       # number of overall misses (Count)
+system.cpu.dcache.overallMisses::total           4381                       # number of overall misses (Count)
+
+
+Block_size = 16
+system.cpu.dcache.demandHits::cpu.data        5319783                       # number of demand (read+write) hits (Count)
+system.cpu.dcache.demandHits::total           5319783                       # number of demand (read+write) hits (Count)
+system.cpu.dcache.overallHits::cpu.data       5319783                       # number of overall hits (Count)
+system.cpu.dcache.overallHits::total          5319783                       # number of overall hits (Count)
+system.cpu.dcache.demandMisses::cpu.data         7999                       # number of demand (read+write) misses (Count)
+system.cpu.dcache.demandMisses::total            7999                       # number of demand (read+write) misses (Count)
+system.cpu.dcache.overallMisses::cpu.data         7999                       # number of overall misses (Count)
+system.cpu.dcache.overallMisses::total           7999                       # number of overall misses (Count)
+
+Block_size = 8 i got an error as cache line size neither 16, 32, 64 nor 128
+system.cpu.dcache.demandHits::cpu.data        5313098                       # number of demand (read+write) hits (Count)
+system.cpu.dcache.demandHits::total           5313098                       # number of demand (read+write) hits (Count)
+system.cpu.dcache.overallHits::cpu.data       5313098                       # number of overall hits (Count)
+system.cpu.dcache.overallHits::total          5313098                       # number of overall hits (Count)
+system.cpu.dcache.demandMisses::cpu.data        14911                       # number of demand (read+write) misses (Count)
+system.cpu.dcache.demandMisses::total           14911                       # number of demand (read+write) misses (Count)
+system.cpu.dcache.overallMisses::cpu.data        14911                       # number of overall misses (Count)
+system.cpu.dcache.overallMisses::total          14911                       # number of overall misses (Count)
+
+Block_size = 4,2
+no output 
